@@ -1,0 +1,2 @@
+select product_id from products where low_fats='y' and recyclable='y';
+// here we wanted to select only the product id column where low_fats='y' and recyclable='y';
