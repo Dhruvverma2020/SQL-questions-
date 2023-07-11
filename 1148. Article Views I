@@ -1,0 +1,5 @@
+select distinct author_id as id from views where author_id=viewer_id order by author_id;
+
+
+
+we are using distinct to remove duplicate values and to print unique values and we have to add 'as id' command too because in the output author_id is replaced by the term id :-select distinct author_id as id from views where author_id=viewer_id order by author_id; 
